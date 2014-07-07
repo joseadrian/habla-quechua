@@ -1,0 +1,9 @@
+# Directorios
+
+install/
+content/
+node_modules/
+bower_components/
+
+# Compiled
+*.css

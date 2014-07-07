@@ -1,0 +1,28 @@
+<!doctype html>
+<html ng-app="HablaQuechua">
+<head>
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="assets/js/app.js"></script>
+
+  <link rel="stylesheet" href="bower_components/twitter/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="assets/css/app.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h3>Habla quechua</h3>
+      <div id="subheader">
+        <img src="assets/img/bg.png" alt="">
+      </div>
+    </div>
+  </header>
+  <div id="content">
+    <div class="container" id="videos">
+      <h4>#HablaQuechua</h4>
+      <div class="row-fluid">
+        <div class="col-md-2 video" ng-repeat="video in [0,1,2,3,4,5]">{{video + 1}}</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

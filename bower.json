@@ -1,0 +1,12 @@
+{
+  "name": "habla-quechua",
+  "version": "0.0.1",
+  "authors": [
+    "Joseadrian <joseadrian@outlook.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "~1.2.19"
+  }
+}
